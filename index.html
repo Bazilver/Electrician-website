@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="aos/aos.css">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="home">
         <div class="container">
             <nav>
                 <h2>Ramzat</h2>
                 <ul id="sidemenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa" onclick="closemenu()" id="close-btn">x</i>
                 </ul>
                 <i class="fa" onclick="openmenu()" id="menu-btn">=</i>
@@ -30,7 +31,7 @@
     </div>
                             <!-- About us -->
     
-    <div class="about">   
+    <div class="about" id="about">   
         <div class="container">
             <h2>About us</h2>
             <div class="about-list">
@@ -48,6 +49,8 @@
     </div>    
     
     <!-- -------carousel------- -->
+  <div id="work">   
+    <h1 class="work">Our Work</h1>  
    <div id="carousel">
    <div class="container">
     <div class="carousel" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="2000">
@@ -79,22 +82,23 @@
     </div>
    </div> 
    </div>
+  </div>
     
                    <!-- ----------contact------------ -->
     <div id="contact">
         <div class="container">
             <div class="row">
-                <div class="contact-left">
+                <div class="contact-left" data-aos="flip-left" data-aos-delay="500" data-aos-duration="1500">
                     <h1 class="sub-title">Contact me</h1>
-                    <p><i>Mail:</i><a href="mailto:bashirualamutu@gmail.com" class="btn1">Ramzat@gmail.com</a></p>
-                    <p><i>call:</i><a href="tel#" class="btn1">call us</a></p>
+                    <p><i>📧:</i><a href="mailto:bashirualamutu@gmail.com" class="btn1">bashirualamutu@gmail.com</a></p>
+                    <p><i>📞:</i><a href="tel#" class="btn1">08085665554</a></p>
                    <div class="social-icon">
                     <a href="#"><img src="images/facebook-logo.png"></a>
                     <a href="#"><img src="images/insta.png"></a>
                     <a href="#"><img src="images/tik-tok-logo.png"></a>
                    </div> 
                 </div>
-                <div class="contact-right">
+                <div class="contact-right" data-aos="flip-right" data-aos-delay="500" data-aos-duration="1500">
                     <form>
                         <input type="text" name="Name" placeholder="Enter your Name" required>
                         <input type="email" name="Email" placeholder="Enter your Email" required>
