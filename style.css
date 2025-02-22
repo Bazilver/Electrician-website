@@ -62,12 +62,12 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
-h2{
+.header h2{
     font-size: 30px;
     font-weight: 600;
     margin: 20px;
 }
-p{
+.header p{
     margin-bottom: 20px;
     padding-bottom: 30px;
 
@@ -132,6 +132,10 @@ p{
 }
 .about-list div:hover{
     transform: translateY(-20px);
+}
+.about-list p{
+    line-height: 1.4;
+    margin: 2px;
 }
 
 /* --------carousel-------- */
